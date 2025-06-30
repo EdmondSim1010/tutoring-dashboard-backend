@@ -4,7 +4,7 @@ This is the repository for the frontend/backend of a "Smart" Tutoring Dashboard 
 
 ### Live Demo
 
-[Link to your live Vercel URL]
+https://tutoring-dashboard-frontend.vercel.app/
 
 ### Features (MVP)
 
