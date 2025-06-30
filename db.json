@@ -1,0 +1,33 @@
+{
+  "questions": [
+    { "id": 1, "topic": "Quadratics", "difficulty": "easy", "text": "Solve for x: x^2 - 4 = 0" },
+    { "id": 2, "topic": "Quadratics", "difficulty": "medium", "text": "Find the vertex of y = 2x^2 - 8x + 5" },
+    { "id": 3, "topic": "Projectile Motion", "difficulty": "medium", "text": "A ball is thrown at 10 m/s at an angle of 30 degrees. What is its maximum height?" },
+    { "id": 4, "topic": "Projectile Motion", "difficulty": "hard", "text": "A projectile is fired from a cliff 50m high with a speed of 20m/s. When does it hit the ground?" },
+    { "id": 5, "topic": "Integration", "difficulty": "easy", "text": "What is the integral of 3x^2 dx?" },
+    { "id": 6, "topic": "Integration", "difficulty": "hard", "text": "Evaluate the integral of sin(x) * e^x dx." }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "topics": ["Quadratics", "Projectile Motion"],
+      "results": [
+        { "questionId": 1, "correct": true },
+        { "questionId": 2, "correct": false },
+        { "questionId": 3, "correct": true }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "topics": ["Integration", "Quadratics"],
+      "results": [
+        { "questionId": 5, "correct": true },
+        { "questionId": 6, "correct": false },
+        { "questionId": 1, "correct": false },
+        { "questionId": 2, "correct": false }
+      ]
+    }
+  ]
+}
