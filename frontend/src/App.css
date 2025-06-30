@@ -1,0 +1,9 @@
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f4f7f6; }
+.App { max-width: 1200px; margin: 20px auto; padding: 20px; }
+h1, h2 { color: #333; }
+.student-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.student-card { background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.progress-bar-container { width: 100%; background-color: #e0e0e0; border-radius: 4px; overflow: hidden; margin-top: 5px; }
+.progress-bar { height: 20px; background-color: #4caf50; text-align: right; color: white; padding-right: 5px; line-height: 20px; font-size: 12px; }
+.quiz-button { background-color: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; margin-top: 10px; }
+.quiz-button:hover { background-color: #0056b3; }
