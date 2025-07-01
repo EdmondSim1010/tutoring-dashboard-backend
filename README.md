@@ -30,7 +30,7 @@ https://tutoring-dashboard-frontend.vercel.app/
 4.  Create a `.env` file and add `REACT_APP_API_URL=http://localhost:5001`
 5.  `npm start`
 
-### Next Steps (Post-Sprint)
+### Next Steps
 
 The next priorities are:
 *   **Implement User Authentication (JWT)** to create secure tutor and student accounts.
