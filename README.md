@@ -19,8 +19,8 @@ https://tutoring-dashboard-frontend.vercel.app/
 *   **Deployment:** Frontend on Vercel, Backend on Render
 
 ### Screenshots
-
-_(Take a screenshot of your main dashboard and the detail view and add them here)_
+<img width="1300" alt="Screenshot 2025-07-01 at 11 25 08 am" src="https://github.com/user-attachments/assets/6b79f27d-3bd9-4351-a619-cbdea67add52" />
+<img width="989" alt="Screenshot 2025-07-01 at 11 25 03 am" src="https://github.com/user-attachments/assets/ac80bf69-6c0d-41aa-b311-68fc2ca6a7e3" />
 
 ### Local Setup
 
