@@ -1,32 +1,168 @@
 {
   "questions": [
-    { "id": 1, "topic": "Quadratics", "difficulty": "easy", "text": "Solve for x: x^2 - 4 = 0" },
-    { "id": 2, "topic": "Quadratics", "difficulty": "medium", "text": "Find the vertex of y = 2x^2 - 8x + 5" },
-    { "id": 3, "topic": "Projectile Motion", "difficulty": "medium", "text": "A ball is thrown at 10 m/s at an angle of 30 degrees. What is its maximum height?" },
-    { "id": 4, "topic": "Projectile Motion", "difficulty": "hard", "text": "A projectile is fired from a cliff 50m high with a speed of 20m/s. When does it hit the ground?" },
-    { "id": 5, "topic": "Integration", "difficulty": "easy", "text": "What is the integral of 3x^2 dx?" },
-    { "id": 6, "topic": "Integration", "difficulty": "hard", "text": "Evaluate the integral of sin(x) * e^x dx." }
+    {
+      "id": 1,
+      "subject": "Mathematics Advanced",
+      "topic": "Calculus - Differentiation",
+      "difficulty": "easy",
+      "marks": 2,
+      "source": "HSC 2022 Style",
+      "text": "Differentiate y = (x^2 + 3)^5.",
+      "answer": "dy/dx = 10x(x^2 + 3)^4"
+    },
+    {
+      "id": 2,
+      "subject": "Mathematics Advanced",
+      "topic": "Calculus - Integration",
+      "difficulty": "medium",
+      "marks": 3,
+      "source": "HSC 2021 Q24",
+      "text": "Find the exact value of the integral of (2x) / (x^2 + 1) dx from 0 to 2.",
+      "answer": "ln(5)"
+    },
+    {
+      "id": 3,
+      "subject": "Mathematics Extension 1",
+      "topic": "Projectile Motion",
+      "difficulty": "hard",
+      "marks": 4,
+      "source": "HSC 2020 Style",
+      "text": "A projectile is fired from the origin with velocity 20 m/s at an angle of 60° to the horizontal. The position of the projectile at time t is given by x = 10t and y = 10√3t - 4.9t^2. Find the Cartesian equation for the path of the projectile.",
+      "answer": "y = x√3 - (4.9x^2)/100"
+    },
+    {
+      "id": 4,
+      "subject": "Physics",
+      "topic": "Special Relativity",
+      "difficulty": "easy",
+      "marks": 2,
+      "source": "HSC 2019 Q23",
+      "text": "A spaceship is measured to be 80 m long when at rest. It then travels at a speed of 0.6c. Calculate the length of the spaceship as measured by a stationary observer.",
+      "answer": "64 m"
+    },
+    {
+      "id": 5,
+      "subject": "Physics",
+      "topic": "The Motor Effect",
+      "difficulty": "hard",
+      "marks": 4,
+      "source": "HSC 2022 Q32",
+      "text": "A proton (q = 1.602 x 10^-19 C, m = 1.672 x 10^-27 kg) enters a uniform magnetic field of 0.5 T at a speed of 2.0 x 10^6 m/s, perpendicular to the field. Calculate the radius of its circular path.",
+      "answer": "4.18 x 10^-2 m"
+    },
+    {
+      "id": 6,
+      "subject": "Chemistry",
+      "topic": "Stoichiometry",
+      "difficulty": "easy",
+      "marks": 2,
+      "source": "HSC 2021 Style",
+      "text": "Calculate the mass of carbon dioxide (CO₂) produced when 12.0 g of carbon is burnt in excess oxygen. (Molar mass: C=12.01 g/mol, O=16.00 g/mol).",
+      "answer": "44.0 g"
+    },
+    {
+      "id": 7,
+      "subject": "Chemistry",
+      "topic": "Equilibrium",
+      "difficulty": "medium",
+      "marks": 3,
+      "source": "HSC 2020 Q25",
+      "text": "Consider the equilibrium: 2NO₂(g) ⇌ N₂O₄(g), where ΔH = -57 kJ/mol. The mixture is brown due to NO₂. If the temperature of the sealed container is decreased, what will be observed and why?",
+      "answer": "The mixture will become lighter/less brown because the forward reaction is exothermic, so decreasing temperature shifts the equilibrium to the right to produce more heat."
+    },
+    {
+      "id": 8,
+      "subject": "Mathematics Advanced",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "marks": 3,
+      "source": "HSC 2022 Q21",
+      "text": "Solve 2sin^2(x) - sin(x) = 1 for 0 ≤ x ≤ 2π.",
+      "answer": "x = π/2, 7π/6, 11π/6"
+    },
+    {
+      "id": 9,
+      "subject": "Chemistry",
+      "topic": "Acids and Bases",
+      "difficulty": "hard",
+      "marks": 5,
+      "source": "HSC 2018 Style",
+      "text": "A student titrates 25.00 mL of a 0.105 M solution of acetic acid (CH₃COOH, Ka = 1.8 x 10^-5) with a 0.115 M solution of sodium hydroxide (NaOH). Calculate the pH at the equivalence point.",
+      "answer": "pH = 8.76"
+    },
+    {
+      "id": 10,
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "difficulty": "medium",
+      "marks": 3,
+      "source": "HSC 2017 Q28",
+      "text": "A 250 g block of aluminium at 95°C is placed into 500 g of water at 20°C in an insulated container. Calculate the final equilibrium temperature. (Specific heat of Al = 900 J/kg/°C, Specific heat of water = 4186 J/kg/°C).",
+      "answer": "24.5 °C"
+    }
   ],
   "students": [
     {
       "id": 1,
       "name": "Alice",
-      "topics": ["Quadratics", "Projectile Motion"],
+      "subjects": ["Physics", "Mathematics Advanced"],
       "results": [
         { "questionId": 1, "correct": true },
-        { "questionId": 2, "correct": false },
-        { "questionId": 3, "correct": true }
+        { "questionId": 2, "correct": true },
+        { "questionId": 4, "correct": true },
+        { "questionId": 5, "correct": false },
+        { "questionId": 8, "correct": true },
+        { "questionId": 10, "correct": false }
       ]
     },
     {
       "id": 2,
       "name": "Bob",
-      "topics": ["Integration", "Quadratics"],
+      "subjects": ["Chemistry", "Mathematics Advanced"],
       "results": [
+        { "questionId": 1, "correct": true },
+        { "questionId": 2, "correct": false },
+        { "questionId": 6, "correct": true },
+        { "questionId": 7, "correct": true },
+        { "questionId": 8, "correct": false },
+        { "questionId": 9, "correct": false }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chloe",
+      "subjects": ["Chemistry"],
+      "results": [
+        { "questionId": 6, "correct": true },
+        { "questionId": 7, "correct": true },
+        { "questionId": 9, "correct": true }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "subjects": ["Physics", "Mathematics Extension 1"],
+      "results": [
+        { "questionId": 1, "correct": true },
+        { "questionId": 2, "correct": true },
+        { "questionId": 3, "correct": true },
+        { "questionId": 4, "correct": true },
         { "questionId": 5, "correct": true },
-        { "questionId": 6, "correct": false },
-        { "questionId": 1, "correct": false },
-        { "questionId": 2, "correct": false }
+        { "questionId": 8, "correct": true },
+        { "questionId": 10, "correct": true }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Emily",
+      "subjects": ["Physics", "Chemistry", "Mathematics Advanced"],
+      "results": [
+        { "questionId": 1, "correct": true },
+        { "questionId": 4, "correct": true },
+        { "questionId": 6, "correct": true },
+        { "questionId": 2, "correct": false },
+        { "questionId": 7, "correct": true },
+        { "questionId": 10, "correct": false }
       ]
     }
   ]
